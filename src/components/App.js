@@ -15,7 +15,7 @@ function App() {
       <hr />
       <Tooltip text="This is another tooltip">
         <p className="tooltip">
-          <div>Hover over me to see another tooltip</div>
+          <div>This is another tooltip</div>
         </p>
       </Tooltip>
     </div>
