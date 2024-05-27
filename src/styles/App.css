@@ -1,10 +1,25 @@
-p {
-    margin: 20px;
+.tooltip-container {
+    position: relative;
+    display: inline-block;
 }
 
-.tooltips {
-    width: 50px;
-    height: 50px;
-    background-color: red;
-    color: white;
+.tooltiptext {
+    visibility: visible;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip-container:hover .tooltiptext {
+    opacity: 1;
 }
