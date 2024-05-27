@@ -8,7 +8,7 @@ function App() {
       <Tooltip text="This is a tooltip">
         <h2 className="tooltip">
           <div>
-            <div>This is a tooltip</div>
+            <div>This is another tooltip</div>
           </div>
         </h2>
       </Tooltip>
