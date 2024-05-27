@@ -16,10 +16,16 @@
     bottom: 100%;
     left: 50%;
     margin-left: -60px;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.3s;
 }
 
+.tooltip-container .tooltiptext {
+    visibility: hidden;
+    opacity: 0;
+}
+
 .tooltip-container:hover .tooltiptext {
+    visibility: visible;
     opacity: 1;
 }
