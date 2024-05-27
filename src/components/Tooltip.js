@@ -11,6 +11,7 @@ const Tooltip = ({ text, children }) => {
   const hideTooltip = () => {
     setVisible(false);
   };
+  console.log(children);
 
   return (
     <div
